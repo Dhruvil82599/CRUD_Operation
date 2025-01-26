@@ -33,7 +33,6 @@ public class InsertData {
 			Connection connection = DriverManager.getConnection(url);
 
 			// Step:-3 :- Prepare Statement
-			//String insert = "insert into student_table values" + id + "," + name + "," + branch + "," + division + "";
 			String insert = "INSERT INTO student_table VALUES (" + id + ", '" + name + "', '" + branch + "', '" + division + "')";
 			Statement statement = connection.createStatement();
 
