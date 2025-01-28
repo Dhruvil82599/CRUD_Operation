@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>JDBC Project 🚀</h1>
+        <h1>JDBC🚀</h1>
     </header>
     <section>
         <h2>Overview 📖</h2>
